@@ -1,0 +1,134 @@
+*{
+margin:0;
+padding:0;
+}
+
+body
+{
+background-image:url('../img/pattern4.png');
+}
+
+a{
+text-decoration:none;
+}
+
+ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.global{
+position :absolute;
+top:7%;
+left :25%;
+background:white;
+width:940px;
+height:840px;
+margin-left :auto;
+margin-right:auto;
+background-image: linear-gradient(bottom, rgb(240,240,237) 24%, rgb(47,204,204) 84%);
+background-image: -o-linear-gradient(bottom, rgb(240,240,237) 24%, rgb(47,204,204) 84%);
+background-image: -moz-linear-gradient(bottom, rgb(240,240,237) 24%, rgb(47,204,204) 84%);
+background-image: -webkit-linear-gradient(bottom, rgb(240,240,237) 24%, rgb(47,204,204) 84%);
+background-image: -ms-linear-gradient(bottom, rgb(240,240,237) 24%, rgb(47,204,204) 84%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.24, rgb(240,240,237)),
+	color-stop(0.84, rgb(47,204,204))
+);
+box-shadow: 8px 8px 12px 8px #375757;
+border-radius:25px;
+}
+.header{
+width:80%;
+height:12%;
+margin-top:5px;
+margin-left:30%;
+margin-right:10%;
+}
+
+.tete{
+padding:30px;
+text-shadow: 5px -5px 10px white;
+color: #0d7082;
+font-weight : normal;
+font-family : Lucida Sans Typewriter
+}
+
+.container{
+width:80%;
+margin-top:10%;
+margin-left:10%;
+margin-right:10%;
+}
+
+.content{
+position: absolute;
+left:5%;
+width:91%;
+height:65%;
+}
+
+.intro{
+font-family : Lucida Sans Typewriter;
+margin-left:-2%;
+margin-top:2%
+}
+.logo{
+margin-top:5%;
+margin-left:1%
+}
+
+.enter{
+margin-top:-2%;
+
+}
+
+.footer{
+position:absolute;
+bottom:8%;
+width:90%;
+margin-top:25%;
+margin-bottom:5%;
+margin-left:5%;
+margin-right:5%;
+
+}
+
+.logU{
+position:absolute;
+left:10%;
+
+}
+
+.logE{
+position:absolute;
+left:60%;
+}
+
+.info{
+position:absolute;
+left:35%;
+bottom:1%;
+display:inline;
+}
+
+.menu{
+position:absolute;
+width:15%;
+height:100%;
+box-shadow: -2px -1px 5px 0px #375757;
+border-radius:25px 25px 0px 0px;
+}
+
+.ListeMenu{
+padding: 0px 0px 25px 20px;
+background-image: url('../img/liste.png');
+background-repeat: no-repeat;
+background-position: 5px 5px ;
+}
+
